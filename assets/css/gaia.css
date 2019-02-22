@@ -52,7 +52,12 @@ body {
   }
 }
 
-h1,
+@font-face {
+  font-family: aleahfont;
+  src: url(assets/fonts/Tattoed_Wedding.tff);
+}
+
+
 .h1,
 h2,
 .h2,
@@ -166,10 +171,14 @@ a:hover {
 }
 
 .title-modern {
-  font-family: "Poppins", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: aleahfont;
   font-weight: 200;
 }
 
+.title-aleah {
+  font-family: aleahfont;
+  font-weight: 200;
+}
 .text-gray {
   color: #777777;
 }
